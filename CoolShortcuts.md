@@ -1,4 +1,4 @@
-### Just some cool shortcuts
+# Just some cool shortcuts
 
 ## Finding minimum
 
