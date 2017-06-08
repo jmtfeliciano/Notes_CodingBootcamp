@@ -2,6 +2,19 @@
 
 Just general notes to remember about arrays
 
+## Determining whether an argument is an array
+
+Using the typeof() method on arrays will return an object.
+So how do we get around it?
+
+Use Array.isArray() method:  
+
+```
+var array1 = [1,2,3,4];
+console.log( Array.isArray(array1) );
+//it will print true!  
+```
+
 ## Manipulating ends of array
 
 ### Beginning of array 
