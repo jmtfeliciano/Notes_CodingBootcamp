@@ -79,7 +79,7 @@ If only passing two arguments to .slice():
 ```
 var array1 = ['a','b','c','d'];
 var slicedArray = array1.slice(0,2);  
-//console.log(slicedArray) will print ['a','b'];
+//console.log(slicedArray) will print ['a','b']
 //logic: slice(0,2) cuts from array[0] until to the left of array[2] (exclusing array[2])
 ```
 
