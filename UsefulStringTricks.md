@@ -2,7 +2,7 @@
 
 Just general notes to remember about strings
 
-## Converting string to arrays
+## .split() method:  Converting string to arrays
 
 Sometimes, it is easier to convert each character of a given string into an array of characters
 
@@ -13,6 +13,20 @@ var string = "a,b,c,d,e,f";
 var array1 = string.split(",");
 console.log(array1);  
 //prints ["a", "b", "c", "d", "e", "f"]
+```
+
+## .join() method:  Converting arrays back to strings
+
+As stated in the preceding  section, it is sometimes easier to convert a string into an array to remove an element or character.  
+
+But after you accomplish your task, you'd probably want to convert it back to string format. 
+
+For this, we will use the .join(arg) method:
+
+```js
+var array = ["Kendrick", "Lamar"];
+console.log( array.join("-") );
+//the array elements will be joint by the "-" so it will log the string "Kendrick-Lamar"
 ```
 
 ## Finding a specific character
