@@ -54,3 +54,32 @@ var array2 = ['a','b','c'];
 var combinedArray = array1.concat(array2);  
 //console.log(combinedArray) will print [1,2,3,4,'a','b','c'];
 ```
+
+## Cutting elements of arrays
+
+Note about .slice():  It will not modify the original array you're slicing from
+Note 2:  .slice() can be very tricky!  Slow-down when using this.  
+
+If only passing one argument to .slice():
+
+```
+var array1 = [1,2,3,4];
+var slicedArray = array1.slice(1);  
+//console.log(slicedArray) will print [2,3,4];
+//logic: slice CUTS 1 element from the LEFT
+
+var array2 = [1,2,3,4];
+var slicedArray = array2.slice(-1);  
+//console.log(slicedArray) will print [4];
+//logic: slice KEEPS 1 element from RIGHT
+```
+
+If only passing two arguments to .slice():
+
+```
+var array1 = ['a','b','c','d'];
+var slicedArray = array1.slice(0,2);  
+//console.log(slicedArray) will print ['a','b'];
+//logic: slice(0,2) cuts from array[0] until to the left of array[2] (exclusing array[2])
+```
+
