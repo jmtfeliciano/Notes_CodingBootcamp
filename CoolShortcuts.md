@@ -4,7 +4,7 @@
 
 ```js
 console.log( Math.min.apply(null,[1,2,3,4,0]) );
-//this will return 0
+//this will log 0
 ``` 
 
 Note:  We can find max by replacing min with max.  
