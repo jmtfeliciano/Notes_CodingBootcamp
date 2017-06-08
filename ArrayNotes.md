@@ -95,7 +95,7 @@ var slicedArray = array1.slice(0,2);
 
 ### .splice() method:  Removing then adding!
 
-We can add but we will remove only first to highlight diffence between splice and slice.
+We can add but first, we will remove only to highlight diffence between splice and slice.
 
 ```js
 var exesName = ['John', 'Janine', 'Jennifer', 'Mark'];
@@ -105,4 +105,19 @@ console.log(exesName);
 
 ```
 
+WARNING (again):  array.slice(1,3) will return the array [array[1],array[2]]
+
+WARNING (again):  array.splice(1,3) will modify array.  And deletes array[1],array[2],array[3] from array
+
+
+Now, let's do some deleting and adding.
+For instance, you want to forget about Janine.  And add another ex named Josephine:
+```js
+var exesName = ['John', 'Janine', 'Jennifer', 'Mark'];
+exesName.splice(1,1,'Josephine'); 
+//index1, from that given index we will delete 1, and add Josephine
+console.log(exesName);
+//It will print ['John', 'Josephine', 'Jennifer', 'Mark']
+
+```
 
