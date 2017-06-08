@@ -24,6 +24,25 @@ console.log(Object.keys(obj).length);
 //it will log 3
 ```
 
+## Comparing string and objects
+
+For this we simply cannot use the === notation.  It will not work!
+
+So for this, compare objects using JSON.stringify:
+
+```js
+
+var array1 = [1,2,[]];
+var array2= [1,2,[]];
+
+console.log(array1===array2); 
+//despite they're equal, this will log FALSE
+
+console.log( JSON.stringify(array1)===JSON.stringify(array2) );
+//using JSON.stringify, we will get the right answer: TRUE!  
+
+```
+
 ## .forEach()
 
 We can use this to avoid for-loops for arrays.
@@ -40,5 +59,25 @@ array.forEach(function(element){
 ``` 
 
 ## .filter()
+
+Very useful for copying arrays that needs to be filtered first.  Again, we get to avoid for-loops.
+
+Example:  copy elements that are odd
+
+```js
+var array = [129,1232,2121,3434,344,102130];
+
+var array2 = array.filter(function(element){
+  if (element%2 === 0){
+  	return false;
+  }else{
+  	return true;
+  }  
+});
+
+console.log(array2); //this will log [129, 2121] 
+
+```
+
 
 
