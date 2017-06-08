@@ -36,9 +36,8 @@ array2.pop();
 .concat method:
 
 ```
-
 var array1 = [1,2,3,4];
 var array2 = ['a','b','c'];
-array2.pop(); 
-//console.log(array2) will print ['a','b','c'];
+var combinedArray = array1.concat(array2);  
+//console.log(combinedArray) will print [1,2,3,4,'a','b','c'];
 ```
