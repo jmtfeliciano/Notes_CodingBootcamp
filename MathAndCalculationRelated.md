@@ -3,13 +3,13 @@
 ### N-root function
 General function to invoke:
 
-```
+```js
 Math.pow(num,nPower);
 ```
 
 A quick example:
 
-```
+```js
 console.log(Math.pow(2,3)); 
 //this will print 8
 
@@ -25,7 +25,7 @@ Note2:  Doing Math.PI() will not work either
 
 Note3:  Do not be stupid.  Remember: Math.PI
 
-```
+```js
 console.log(Math.pow(Math.PI,Math.PI));
 // Will print the value of pi^pi 
 
