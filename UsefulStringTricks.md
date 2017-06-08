@@ -8,7 +8,7 @@ Sometimes, it is easier to convert each character of a given string into an arra
 
 .split(separator) method:
 
-```
+```js
 var string = "a,b,c,d,e,f";
 var array1 = string.split(",");
 console.log(array1);  
@@ -22,7 +22,7 @@ While you can use .split() and traverse each element, that seems wasteful comput
 
 Here, indexOf(char) is very useful!
 
-```
+```js
 var str = "alamo";
 console.log( str.indexOf("l") );
 //it will print 1 since l is in index 0 of the given array
