@@ -27,7 +27,7 @@ Note3:  Do not be stupid.  Remember: Math.PI
 
 ```
 console.log(Math.pow(Math.PI,Math.PI));
-// Will print the value of pi^pi
+// Will print the value of pi^pi 
 
 ```
 
