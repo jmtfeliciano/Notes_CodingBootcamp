@@ -4,7 +4,7 @@ Just general notes to remember about arrays
 
 ## Manipulating ends of array
 
-### Beginning of array
+### Beginning of array 
 
 ```
 var array1 = [1,2,3,4];
