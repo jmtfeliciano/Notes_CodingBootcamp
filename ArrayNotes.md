@@ -114,6 +114,7 @@ Now, let's do some deleting and adding.
 For instance, you want to forget about Janine.  And add another ex named Josephine:
 ```js
 var exesName = ['John', 'Janine', 'Jennifer', 'Mark'];
+
 exesName.splice(1,1,'Josephine'); 
 //index1, from that given index we will delete 1, and add Josephine
 console.log(exesName);
