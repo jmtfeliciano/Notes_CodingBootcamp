@@ -12,3 +12,22 @@ puts "hehe"
 
 ```
 
+## Ruby has a .reverse method too!
+
+```ruby
+"hello".reverse
+//will return olleh
+
+```
+
+## upcase and downcase
+
+```ruby
+puts "hello".upcase 
+// prints HELLO
+puts "Hi".downcase
+// prints hi
+```
+
+
+
