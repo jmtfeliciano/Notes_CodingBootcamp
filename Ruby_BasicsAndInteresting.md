@@ -16,6 +16,14 @@ test
 =end
 ```
 
+##  Big difference between ruby and javascript
+
+ruby -> elseif
+javascript -> else if
+
+spacing matters!!!
+
+
 ## Ruby has a .reverse method too!
 
 ```ruby
