@@ -9,11 +9,11 @@ and print behaves like println in java or equivalent to javascript's print
 print "he"
 puts "hehe"
 print "test"
-==
+=begin
 console will print: 
 hehe
 test
-==
+=end
 ```
 
 ## Ruby has a .reverse method too!
