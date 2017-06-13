@@ -51,3 +51,13 @@ print "Integer please: "
 user_num = Integer(gets.chomp)
 ```
 
+## Weird Ruby forloop
+
+how to print 1 to 20.
+in short, in 1...21 is right-exclusive
+```ruby
+for i in 1...21
+    puts i
+end
+// 
+```
