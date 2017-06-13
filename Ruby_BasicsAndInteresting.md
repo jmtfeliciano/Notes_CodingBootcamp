@@ -29,5 +29,12 @@ puts "Hi".downcase
 // prints hi
 ```
 
+## To print and retrieve data
 
+gets.chomp allows us to get data.
+```ruby
+
+print "Integer please: "
+user_num = Integer(gets.chomp)
+```
 
