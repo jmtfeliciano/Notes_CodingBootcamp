@@ -19,6 +19,7 @@ test
 ##  Big difference between ruby and javascript
 
 ruby -> elseif
+
 javascript -> else if
 
 spacing matters!!!
