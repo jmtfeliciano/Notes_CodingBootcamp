@@ -18,7 +18,7 @@ test
 
 ##  Big difference between ruby and javascript
 
-ruby -> elseif
+ruby -> elsif
 
 javascript -> else if
 
