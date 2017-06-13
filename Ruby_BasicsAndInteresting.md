@@ -11,7 +11,7 @@ puts "hehe"
 print "test"
 =begin
 console will print: 
-hehe
+hehehe
 test
 =end
 ```
