@@ -10,7 +10,7 @@ print "he"
 puts "hehe"
 print "test"
 =begin
-console will print: 
+console will print : 
 hehehe
 test
 =end
@@ -22,7 +22,7 @@ ruby -> elsif
 
 javascript -> else if
 
-spacing matters!!!
+Spacing matters!  So take note and do not confuse. 
 
 
 ## Ruby has a .reverse method too!
