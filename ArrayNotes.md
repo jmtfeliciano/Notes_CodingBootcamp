@@ -105,9 +105,9 @@ console.log(exesName);
 
 ```
 
-WARNING (again):  array.slice(1,3) will return the array [array[1],array[2]]
+WARNING 1 (again):  array.slice(1,3) will return the array [array[1],array[2]]
 
-WARNING (again):  array.splice(1,3) will modify array.  And deletes array[1],array[2],array[3] from array
+WARNING 2 (again):  array.splice(1,3) will modify array.  And deletes array[1],array[2],array[3] from array
 
 
 Now, let's do some deleting and adding.
