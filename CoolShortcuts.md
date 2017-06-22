@@ -79,5 +79,7 @@ console.log(array2); //this will log [129, 2121]
 
 ```
 
+## to check what type it is (except for array because Array.isArray is needed)
 
+use typeof() method
 
